@@ -19,11 +19,19 @@ public class MainActivity extends AppCompatActivity {
                 "Delhi",
                 "Delhi",
                 "Delhi",
-                "Bharat"
+                "Bharat",
+                 "Kanpur",
+                        "Lucknow",
+                        "Ayodhya",
+                        "Basti",
+                        "Gorakhpur",
+                        "Ghaziabad",
+                        "Noida",
+                        "Saharanpur"
         };
         for(String cityName : weather_fake_data)
         {
-            weatherData.append(cityName+"\n");
+            weatherData.append(cityName+"\n\n\n\n");
         }
     }
 }
